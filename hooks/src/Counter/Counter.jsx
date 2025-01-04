@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-let getRandom = () =>{
+export let getRandom = () =>{
     console.log("get Random");
     return Math.random();
 }
